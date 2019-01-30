@@ -4,7 +4,7 @@
 */
 
 body { 
-  color: white;
+  color: black;
   font-family: 'Open Sans',sans-serif;
   padding: 2rem;
 }
@@ -18,7 +18,7 @@ section{
   padding-bottom: 2rem;
   border-top-width: 0.15rem;
   border-top-style: solid;
-  border-top-color: white;
+  border-top-color: black;
 }
 
 h1{
@@ -33,7 +33,7 @@ h2 {
 }
 
 .header-2{
-  color: white;
+  color: black;
 }
 h3 {
   font-size: 1.2rem;
@@ -60,7 +60,7 @@ nav a{
   text-decoration: none;
 }
 nav a:hover {
-  color:white;
+  color:black;
 }
 
 nav a:focus {
@@ -74,14 +74,14 @@ code {
 }
 
 code:hover{
-  color: white;
+  color: black;
 }
 
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
 .intext-link{
-  color:white;
+  color:black;
   text-decoration: none;
   margin-left: 2rem;
   opacity: 25%;
@@ -120,13 +120,13 @@ p{
 font-family: 'Libre Barcode 128 Text', cursive;
 font-size: 2rem;
 color: black;
-background-color: white;
+background-color: black;
 transition: .2s;
 }
 
 .button-reset:hover {
 font-family: 'Libre Barcode 128 Text', cursive;
-color: white;
+color: black;
 transform: scale(1.1);
 background: black;
 }
@@ -134,7 +134,7 @@ background: black;
 .button-nav {
   display: inline-block;
   padding: 0.5rem;
-  color: white;
+  color: black;
   background-color: rgb(50,50,50);
   text-decoration: none;
   transition-property: background-color; 
@@ -161,7 +161,7 @@ background: black;
 }
 
 .nav-main a{
-  color: white;
+  color: black;
   text-decoration: none;
   margin-left: 2rem;
   transition: .2s;
@@ -169,7 +169,7 @@ background: black;
 
 .nav-main a:hover{
   border-bottom-style: solid;
-  border-bottom-color: white;
+  border-bottom-color: black;
 }
 
 .nav-main a:focus{
@@ -254,7 +254,7 @@ background: black;
 html { 
     width: 100%; 
     height: 100%; 
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/background01.jpg);
     background-position: 0px 0px;
 
     animation: animatedBackground 10s linear infinite;
@@ -281,7 +281,7 @@ footer{
   position: relative;
   top:5em;
   width: 100%;
-  color:white;
+  color:black;
   text-align: center;
   padding:1em;
   margin-top: 2em;
@@ -295,6 +295,6 @@ footer p{
   margin-top: 4rem;
 }
 fieldset a{
-  color: white;
+  color: black;
   text-decoration: none;
 }
