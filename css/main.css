@@ -1,0 +1,300 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+
+body { 
+  color: white;
+  font-family: 'Open Sans',sans-serif;
+  padding: 2rem;
+}
+
+section{
+  margin-top: 2rem;
+  margin-left: 6rem;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: white;
+}
+
+h1{
+  font-family: sans-serif;
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: red;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+.header-2{
+  color: white;
+}
+h3 {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+h4 {
+    font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+nav{
+  margin: 4rem;
+}
+
+nav a{
+  color: #808080;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+nav a:hover {
+  color:white;
+}
+
+nav a:focus {
+  color:red;
+}
+
+code {
+  color: #808080;
+  padding: 0.5rem;
+  display: block;
+}
+
+code:hover{
+  color: white;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+.intext-link{
+  color:white;
+  text-decoration: none;
+  margin-left: 2rem;
+  opacity: 25%;
+
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 4rem;
+}
+
+.intext-link:hover{
+  color: #D3D3D3;
+}
+.intext-link:focus{
+  color: red;
+}
+
+.work-image{
+  opacity: .5;
+  margin: 2rem;
+  transition: transform .5s;
+}
+
+.work-image:hover{
+  opacity: .8;
+  transform: scale(1.1);
+}
+.work-image:focus{
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+p{
+  width: 60%;
+}
+
+.button-reset{
+font-family: 'Libre Barcode 128 Text', cursive;
+font-size: 2rem;
+color: black;
+background-color: white;
+transition: .2s;
+}
+
+.button-reset:hover {
+font-family: 'Libre Barcode 128 Text', cursive;
+color: white;
+transform: scale(1.1);
+background: black;
+}
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(50,50,50);
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(200,200,200);
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+.nav-main{
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+.nav-main a{
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  transition: .2s;
+}
+
+.nav-main a:hover{
+  border-bottom-style: solid;
+  border-bottom-color: white;
+}
+
+.nav-main a:focus{
+  color: red;
+}
+
+#Product-list{
+    margin-top: 2rem;
+  }
+
+
+.product{
+  margin-top: 2rem;
+  margin-left: 4rem;
+ width: 25%;
+ height: 25%;
+ display: inline-block;
+}
+
+.product img{
+  transition: .5s;
+}
+
+.product img:hover{
+  transform: scale(1.05);
+}
+
+
+
+.container {
+  color: black;
+  width: 12%;
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.container a{
+  text-decoration: none;
+  color: blue;
+  margin-top: 1rem;
+}
+
+#brand-components .element p{
+  font-size: 6rem;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.color-image{
+  opacity: .5;
+  transition: .5s;
+}
+
+.color-image:hover{
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+@keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+@-moz-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+@-webkit-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+@-ms-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+@-o-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+
+html { 
+    width: 100%; 
+    height: 100%; 
+    background-image: url(../img/background.jpg);
+    background-position: 0px 0px;
+
+    animation: animatedBackground 10s linear infinite;
+    -moz-animation: animatedBackground 10s linear infinite;
+    -webkit-animation: animatedBackground 10s linear infinite;
+    -ms-animation: animatedBackground 10s linear infinite;
+    -o-animation: animatedBackground 10s linear infinite;
+}
+
+
+.hang01{
+  margin-left: 2rem;
+}
+
+.hang02{
+  margin-left: 2rem;
+}
+.main-nav{
+  display: inline-block;
+}
+
+footer{
+  display: block;
+  position: relative;
+  top:5em;
+  width: 100%;
+  color:white;
+  text-align: center;
+  padding:1em;
+  margin-top: 2em;
+}
+footer p{
+  text-align: center;
+}
+.form{
+  margin-left: 4rem;
+  text-decoration: none;
+  margin-top: 4rem;
+}
+fieldset a{
+  color: white;
+  text-decoration: none;
+}

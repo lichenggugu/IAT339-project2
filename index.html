@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>P01 - Style Guide Template</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>P01 - Style Guide Template for DD (David's Design)</h1>
+
+      <nav>        
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="product-list.html">Product Listing Template</a>
+        <a href="checkout.html">Checkout Template</a>
+        <a href="#citations">Citations</a>
+      </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+
+      <section class="element">
+        <h3>In-text link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.intext-link</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt;Our Company: &lt;a href="#" class="intext-link"&gt;DD-David's Design&lt;/a&gt;&lt;/p&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <p>Our Company: <a href="#" class="intext-link">DD-David's Design</a></p>
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button-reset</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;button class="button-reset"&gt;Submit/Reset&lt;/button&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <button class="button-reset">Submit/Reset</button>
+      </section>
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.input-label</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;label class="input-label"&gt;Enter Your Text Input:&lt;/label&gt;&lt;input class="input-box" type="text"&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <label class="input-label">Enter Your Text Input:</label>
+        <input type="text">
+      </section>
+
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button-radio</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;button class="button-radio"&gt;playt&lt;/button&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <button class="button-radio">Play</button>
+      </section>
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.work-image</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a class="work-image" href="https://vignette.wikia.nocookie.net/redvelvet/images/f/f7/Joy_Peek-A-Boo_Teaser_1.PNG/revision/latest?cb=20171109155517" title="This is an HTML liked image"&gt;&lt;img alt="red-velvet" src="https://vignette.wikia.nocookie.net/redvelvet/images/f/f7/Joy_Peek-A-Boo_Teaser_1.PNG/revision/latest?cb=20171109155517" width="474" height="327"&gt;&lt;a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a href="https://vignette.wikia.nocookie.net/redvelvet/images/f/f7/Joy_Peek-A-Boo_Teaser_1.PNG/revision/latest?cb=20171109155517" title="This is an HTML liked image">
+  <img class="work-image"  alt="red-velvet" src="https://vignette.wikia.nocookie.net/redvelvet/images/f/f7/Joy_Peek-A-Boo_Teaser_1.PNG/revision/latest?cb=20171109155517" width="474" height="327" /></a>
+      </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.heading-1</p>
+        <p>.heading-2</p>
+        <p>.heading-3</p>
+        <p>.heading-4</p>
+
+
+        <h4>Sample code:</h4>
+        <code>&lt;h1 class="heading-1"&gt;Header Level 1&lt;/h1&gt;</code>
+        <code>&lt;h2 class="heading-2"&gt;Header Level 2&lt;/h2&gt;</code>
+        <code>&lt;h3 class="heading-3"&gt;Header Level 3&lt;/h3&gt;</code>
+        <code>&lt;h4 class="heading-4"&gt;Header Level 4&lt;/h4&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h1 class="header-1">Header Level 1</h1>
+        <h2 class="header-2">Header Level 2</h2>
+        <h3 class="header-3">Header Level 3</h3>
+        <h4 class="header-4">Header Level 4</h4>
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.text-para</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;p class="text-para"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;/p&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <p class="text-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.list-num</p>
+
+        <h4 class="sample-code">Sample code:</h4>
+        <code>&lt;ol class="list-num"&gt;&lt;/li&gt;Number List 1&lt;/li&gt; &lt;/li&gt;Number List 2&lt;/li&gt; &lt;/li&gt;Number List 3&lt;/li&gt;&lt;/ol&gt;</code>
+
+
+        <h4>Rendered element:</h4>
+        <ol class="list-num">
+          <li>Number List 1</li>
+          <li>Number List 2</li>
+          <li>Number List 3</li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+        <h4>CSS selector:</h4>
+        <p>.nav-main</p>
+
+        <h4 class="sample-code">Sample code:</h4>
+        <code>&lt;div class="nav-main"&gt;
+          &lt;a href="#"&gt;Home&lt;/a&gt;
+          &lt;a href="#"&gt;WORK&lt;/a&gt;
+          &lt;a href="#"&gt;ABOUT&lt;/a&gt;
+          &lt;a href="#"&gt;NEWS&lt;/a&gt;
+          &lt;a href="#"&gt;CONTACT&lt;/a&gt;
+          &lt;/div&gt;</code>
+
+        <h4>Rendered element:</4>
+        <div class="nav-main">
+          <a href="#">HOME</a>
+          <a href="#">WORK</a>
+          <a href="#">ABOUT</a>
+          <a href="#">NEWS</a>
+          <a href="#">CONTACT</a>
+        </div>
+
+      </section>
+
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+
+        <h4>CSS selector:</h4>
+        <p>#Product-list</p>
+        <p>.product</p>
+
+        <h4 class="sample-code">Sample code:</h4>
+        <code>&lt;div class="Product-list"&gt;
+          &lt;div class="product"&gt;
+          &lt;img src="img/product1.png" alt="poster" style="width:100%"&gt;
+          &lt;h3&gt;Customize Poster&lt;/h3&gt;
+          &lt;p class="price"&gt;CAD 450&lt;/p&gt;
+          &lt;p&gt;Some text about the poster..&lt;/p&gt;
+          &lt;p&gt;&lt;button&gt;Add to Cart&lt;/button&gt;&lt;/p&gt;&lt;/div&gt;
+        </code>
+        <div id="Product-list">
+         <div class="product">
+         <img src="img/product1.png" alt="poster" style="width:100%">
+         <h3>Customize Poster</h3>
+         <p class="price">CAD 450</p>
+         <p>Some text about the poster..</p>
+        <p><button>Add to Cart</button></p>
+
+      </div>
+
+         <div class="product">
+         <img src="img/product2.png" alt="Denim Jeans" style="width:100%">
+         <h3>Customize Poster</h3>
+         <p class="price">CAD 450</p>
+         <p>Some text about the poster..</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+
+        <div class="product">
+         <img src="img/product3.png" alt="Denim Jeans" style="width:100%">
+         <h3>Customize Poster</h3>
+         <p class="price">CAD 450</p>
+         <p>Some text about the poster..</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      </div>
+      </section>
+
+      <section class="element">
+        <h3>Payment Form</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.input-label</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;label class="input-label"&gt;Enter Your Text Input:&lt;/label&gt;&lt;input class="input-box" type="text"&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <form>
+          First name:<br>
+          <input type="text" name="firstname">
+          <br>
+          Last name:<br>
+          <input type="text" name="lastname">
+          <br>
+          Card number:<br>
+          <input type="text" name="cardnumber">
+        </form>
+      </section>
+
+      <section class="element">
+        <h3>Checkout Cart</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.container</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt;&lt;a href="#"&gt;Poster&lt;/a&gt;&lt;span class="price"&gt;$15&lt;spana&gt;&lt;/p&gt;</code>
+
+
+    <div class="container">
+      <h4>Cart </h4>
+      <p><a href="#">Poster</a> <span class="price">$15</span></p>
+      <p><a href="#">Book cover</a> <span class="price">$5</span></p>
+      <p><a href="#">Photo</a> <span class="price">$8</span></p>
+      <p><a href="#">Product</a> <span class="price">$2</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+    </div>
+
+
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    <section id="DD">
+      <h2>DD - David's Design</h2>
+
+      <section class="element">
+        <h3>What We Do</h3>
+        <p>We design for the future—in ways that make sense right now. We’re strategic experts and creative explorers committed to solving complex challenges. With smart tools and global resources, we examine the implications of every brand choice, create new experiences, and open doors to opportunity.</p>
+        <h3>Our Customers</h3>
+        <p>Anyone interested in design can become our user. When you want to create your own brand, you want a beautiful poster, even if you want a beautiful set of photos, you can come to us.</p>
+
+      </section>
+
+    </section>
+
+    <section id="brand-components">
+      <h2>Brand Components</h2>
+
+      <section class="element">
+        <h3>Font： Open Sans</h3>
+
+        <p>ABCČĆDĐEFGHIJKLMNOPQ</p>
+
+      </section>
+
+      <section class="element">
+        <h3>Colour palettes</h3>
+        <a href="https://i.pinimg.com/originals/1b/dd/3c/1bdd3ca5c8fbc0138d40ecf63d3c3909.png" title="This is an HTML liked image">
+  <img class="color-image"  alt="red-velvet" src="https://i.pinimg.com/originals/1b/dd/3c/1bdd3ca5c8fbc0138d40ecf63d3c3909.png" /></a>
+
+      </section>
+
+      <section id="art_dorection">
+        <h2>Art direction</h2>
+
+        <div id="Product-list">
+         <div class="product">
+         <img src="img/art1.jpg" alt="poster" style="width:100%">
+      
+      </div>
+
+         <div class="product">
+         <img src="img/art2.jpg" alt="art direction" style="width:100%">
+         
+      </div>
+
+        <div class="product">
+         <img src="img/art3.jpg" alt="art direction" style="width:100%">
+        
+      </div>
+      </div>
+    </section>
+
+    </section>
+
+
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
+        <li>https://stackoverflow.com/questions/22781569/css-background-position-animate-right-to-left</li>
+        <li>http://alainvonck.tumblr.com/</li>
+        <li>https://www.behance.net/gallery/28206425/Protect</li>
+        <li>https://www.jloyd.net/</li>
+        <li>https://hyperfeed.ru/krzysztof-iwanski-posters/</li>
+        <li>https://vignette.wikia.nocookie.net/redvelvet/images/f/f7/Joy_Peek-A-Boo_Teaser_1.PNG/revision/latest?cb=20171109155517</li>
+      </ul>
+
+    </section>
+
+
+
+  </body>
+</html>
