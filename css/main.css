@@ -119,14 +119,14 @@ p{
 .button-reset{
 font-family: 'Libre Barcode 128 Text', cursive;
 font-size: 2rem;
-color: black;
+color: white;
 background-color: black;
 transition: .2s;
 }
 
 .button-reset:hover {
 font-family: 'Libre Barcode 128 Text', cursive;
-color: black;
+color: white;
 transform: scale(1.1);
 background: black;
 }
@@ -134,7 +134,7 @@ background: black;
 .button-nav {
   display: inline-block;
   padding: 0.5rem;
-  color: black;
+  color: white;
   background-color: rgb(50,50,50);
   text-decoration: none;
   transition-property: background-color; 
@@ -142,7 +142,8 @@ background: black;
 }
 
 .button-nav:hover, .button-nav:focus {
-  background-color: rgb(200,200,200);
+  color:blue;
+  background-color: white;
 }
 
 /* 
