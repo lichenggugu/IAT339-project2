@@ -329,6 +329,7 @@ fieldset a{
 }
 
 .questions_text{
-  position:relative;
-  height:2em;
+  bottom: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
 }
