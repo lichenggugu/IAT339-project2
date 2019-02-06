@@ -192,11 +192,11 @@ background: black;
 }
 
 
-.product1, .product2, .product3 img{
+.product1 img, .product2 img, .product3 img{
   transition: .5s;
 }
 
-.product1, .product2, .product3 img:hover{
+.product1 img:hover, .product2 img:hover, .product3 img:hover{
   transform: scale(1.05);
 }
 
@@ -349,6 +349,31 @@ fieldset a{
 .basicinfo{
   padding: 2em;
 }
+ 
+
+ #Event{
+  margin-left: 5rem;
+ }
+#Event .eventimg, .eventinfo{
+  position: relative;
+  display: inline-block;
+  width: 40%;
+}
+
+.eventimg img{
+  width: 100%;
+}
+
+.eventinfo{
+  margin-top: 0;
+  margin-left: 4em;
+}
+
+.eventinfo p{
+  width: 100%;
+}
+
+
 
 
 
