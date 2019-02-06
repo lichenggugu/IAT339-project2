@@ -203,7 +203,7 @@ background: black;
 @media(max-width: 45em){
   .product1, .product2, .product3{
   padding-right: 0em;
-  width: 48%;
+  width: 90%;
   display: inline-block;
   } 
 
@@ -219,7 +219,7 @@ background: black;
 @media(max-width: 25em){
   .product1, .product2, .product3{
   padding:0px 1em 0em 1em;
-  width: 100%;
+  width: 80%;
   display: inline-block;
   } 
 
@@ -329,26 +329,27 @@ fieldset a{
 }
 
 .questions_text{
-<<<<<<< HEAD
   position:relative;
   height:2em;
 }
 
 #information{
-  padding-left: 10rem;
-  padding-right: 10rem;
+  margin-top: 18em;
+  margin-bottom: 17em;
+  padding-left: 4rem;
+  padding-right: 6rem;
   width: 100%;
-  text-align: center;
 }
+
 
 #information p{
-
   width: 100%;
 }
 
-=======
-  bottom: 0em;
-  padding-bottom: 0em;
-  margin-bottom: 0em;
+.basicinfo{
+  padding: 2em;
 }
->>>>>>> master
+
+
+
+
