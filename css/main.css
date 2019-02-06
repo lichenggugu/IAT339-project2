@@ -182,22 +182,50 @@ background: black;
   }
 
 
-.product{
+.product1, .product2, .product3{
   margin-top: 2rem;
   margin-left: 4rem;
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
  width: 25%;
- height: 25%;
- display: inline-block;
 }
 
-.product img{
+
+.product1, .product2, .product3 img{
   transition: .5s;
 }
 
-.product img:hover{
+.product1, .product2, .product3 img:hover{
   transform: scale(1.05);
 }
 
+@media(max-width: 45em){
+  .product1, .product2, .product3{
+  padding-right: 0em;
+  width: 48%;
+  display: inline-block;
+  } 
+
+  .product_page{
+    width: 100%;
+    padding: 0px;
+    padding-left: 1em;
+    margin-left: 0px;
+   padding-right: 1em;
+  }
+
+}
+@media(max-width: 25em){
+  .product1, .product2, .product3{
+  padding:0px 1em 0em 1em;
+  width: 100%;
+  display: inline-block;
+  } 
+
+
+
+}
 
 
 .container {
