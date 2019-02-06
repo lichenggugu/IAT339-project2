@@ -53,3 +53,10 @@
   nav{
     position: relative;
   }
+
+
+@media(max-width: 60em){
+	.hang01{
+		width: 100%;
+	}
+}
