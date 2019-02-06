@@ -332,3 +332,16 @@ fieldset a{
   position:relative;
   height:2em;
 }
+
+#information{
+  padding-left: 10rem;
+  padding-right: 10rem;
+  width: 100%;
+  text-align: center;
+}
+
+#information p{
+
+  width: 100%;
+}
+
