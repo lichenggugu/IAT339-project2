@@ -329,6 +329,7 @@ fieldset a{
 }
 
 .questions_text{
+<<<<<<< HEAD
   position:relative;
   height:2em;
 }
@@ -345,3 +346,9 @@ fieldset a{
   width: 100%;
 }
 
+=======
+  bottom: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+>>>>>>> master
