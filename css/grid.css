@@ -19,6 +19,10 @@
     padding: 0 1rem;
 }
 
+.product_list_image {
+}
+
+/*
 @media(max-width: 50em){
   #nav_filler{
 
@@ -59,4 +63,4 @@
 	.hang01{
 		width: 100%;
 	}
-}
+}*/
