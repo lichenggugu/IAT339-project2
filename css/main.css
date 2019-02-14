@@ -184,7 +184,7 @@ background: black;
 }
 
 
-.product1, .product2, .product3{
+.product{
   flex-basis: 15em;
   flex-grow: 1;
 
@@ -195,11 +195,11 @@ background: black;
 }
 
 
-.product1 img, .product2 img, .product3 img{
+.product img{
   transition: .5s;
 }
 
-.product1 img:hover, .product2 img:hover, .product3 img:hover{
+.product img:hover{
   transform: scale(1.05);
 }
 
