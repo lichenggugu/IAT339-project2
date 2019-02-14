@@ -187,7 +187,6 @@ background: black;
 .product{
   flex-basis: 15em;
   flex-grow: 1;
-
   margin: 10px 20px;
   vertical-align: top;
   position: relative;

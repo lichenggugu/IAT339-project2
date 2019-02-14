@@ -22,7 +22,7 @@
 .product_list_image {
 }
 
-/*
+
 @media(max-width: 50em){
   #nav_filler{
 
@@ -59,7 +59,7 @@
   }
 
 
-@media(max-width: 60em){
+/*@media(max-width: 60em){
 	.hang01{
 		width: 100%;
 	}
