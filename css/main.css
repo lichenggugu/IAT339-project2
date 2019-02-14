@@ -393,5 +393,27 @@ fieldset a{
 }
 
 
-
-
+.container.block{
+   height:300px;
+   width:300px;
+   float:left;
+   margin-right:100px;
+}
+.block{
+ -webkit-flex: 1 1 15em;
+ -ms-flex: 1 1 15em;
+ flex: 1 1 15em;
+}
+#album_info_name, #album_info{
+  width:80%;
+  margin-left:5em;
+}
+/*.album_info p{
+  width:80%;
+  margin-left:5em;
+}
+.album_info h3{
+  width:80%;
+  margin-left:5em;
+}
+*/
