@@ -31,6 +31,14 @@
   .nav{
     width: 15%;
   }
+
+  #Event .eventimg, .eventinfo {
+    display: block;
+    width: 100%;
+  }
+  .eventinfo {
+    margin-left: 0;
+  }
 }
 
 @media(max-width: 26em){
@@ -57,6 +65,8 @@
   nav{
     position: relative;
   }
+
+}
 
 
 /*@media(max-width: 60em){
