@@ -177,13 +177,19 @@ background: black;
   color: red;
 }
 
-#Product-list{
+.Product-list{
     margin-top: 2rem;
     display: -webkit-flex; /* Safari */
     display: flex;
     flex-wrap: wrap;
 }
 
+.Product-list2{
+    margin-top: 2rem;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /*.product{
   flex-basis: 15em;
@@ -387,7 +393,7 @@ fieldset a{
 }
  
 
- #Event{
+#Event{
   margin-left: 5rem;
  }
 #Event .eventimg, .eventinfo{
@@ -409,7 +415,7 @@ fieldset a{
   width: 100%;
 }
 
-#Event{
+.Event{
   margin-bottom: 20rem;
 }
 
@@ -429,12 +435,6 @@ fieldset a{
   width:80%;
   margin-left:5em;
 }
-/*.album_info p{
-  width:80%;
-  margin-left:5em;
+.footer_info{
+  text-align:center;
 }
-.album_info h3{
-  width:80%;
-  margin-left:5em;
-}
-*/
