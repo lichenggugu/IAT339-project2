@@ -22,7 +22,7 @@
 .product_list_image {
 }
 
-/*
+
 @media(max-width: 50em){
   #nav_filler{
 
@@ -30,6 +30,14 @@
   }
   .nav{
     width: 15%;
+  }
+
+  #Event .eventimg, .eventinfo {
+    display: block;
+    width: 100%;
+  }
+  .eventinfo {
+    margin-left: 0;
   }
 }
 
@@ -58,8 +66,10 @@
     position: relative;
   }
 
+}
 
-@media(max-width: 60em){
+
+/*@media(max-width: 60em){
 	.hang01{
 		width: 100%;
 	}

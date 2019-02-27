@@ -179,6 +179,7 @@ background: black;
 
 #Product-list{
     margin-top: 2rem;
+    display: -webkit-flex; /* Safari */
     display: flex;
     flex-wrap: wrap;
 }
@@ -186,9 +187,10 @@ background: black;
 
 .product{
   flex-basis: 15em;
-  flex-grow: 1;
-
-  margin: 10px 20px;
+  /*flex-grow: 0  不填充,   1: 填充缩放 */
+  flex-grow: 0;
+  flex-shrink:1;
+  margin: 10px 1em;
   vertical-align: top;
   position: relative;
   display: block;
@@ -218,7 +220,7 @@ background: black;
  padding-right: 1em;
 }
 
-}
+
 /*
 @media(max-width: 25em){
   .product1, .product2, .product3{
@@ -242,7 +244,7 @@ background: black;
   } 
 }*/
 
-}
+
 .container {
   color: black;
   width: 12%;
