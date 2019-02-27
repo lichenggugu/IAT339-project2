@@ -185,17 +185,36 @@ background: black;
 }
 
 
-.product{
+/*.product{
   flex-basis: 15em;
-  /*flex-grow: 0  不填充,   1: 填充缩放 */
+ 
   flex-grow: 0;
   flex-shrink:1;
   margin: 10px 1em;
   vertical-align: top;
   position: relative;
   display: block;
-}
+}*/
+ /*flex-grow: 0  不填充,   1: 填充缩放 */
 
+ @media(max-width:2000px){
+  .product{
+    width:31.33333%;
+    margin:0 1%;
+  }
+ }
+ @media(max-width:771px){
+  .product{
+    width:48%;
+    margin:0 1%;
+  }
+ }
+ @media(max-width:440px){
+  .product{
+    width:100%;
+    margin:0;
+  }
+ }
 
 .product img{
   transition: .5s;
