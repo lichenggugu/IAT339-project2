@@ -32,7 +32,12 @@
     width: 15%;
   }
 
-  #Event .eventimg, .eventinfo {
+  .Event .eventimg, .eventinfo {
+    display: block;
+    width: 100%;
+  }
+
+    .Event2 .eventimg, .eventinfo {
     display: block;
     width: 100%;
   }
