@@ -393,14 +393,19 @@ fieldset a{
 }
  
 
-#Event{
+.Event{
   margin-left: 5rem;
  }
-#Event .eventimg, .eventinfo{
+
+ 
+
+.Event .eventimg, .eventinfo{
   position: relative;
   display: inline-block;
   width: 40%;
 }
+
+
 
 .eventimg img{
   width: 100%;
