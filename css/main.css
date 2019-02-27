@@ -190,6 +190,11 @@ background: black;
     display: flex;
     flex-wrap: wrap;
 }
+.product-link {
+  color:black;
+  text-decoration: none;
+  transition: .2s;
+}
 
 /*.product{
   flex-basis: 15em;
